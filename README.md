@@ -5,17 +5,17 @@
 
 サーバーサイド
 ```bash
-    docker-compose run backend django-admin.py startproject django_react .
+docker-compose run backend django-admin.py startproject django_react .
 ```
 
 フロント側
 ```bash
-    docker-compose run --rm front sh -c "npm install -g create-react-app && create-react-app django_front"
+docker-compose run --rm front sh -c "npm install -g create-react-app && create-react-app django_front"
 ```
 
 起動方法
 ```bash
-    docker-compose up -d
+docker-compose up -d
 ```
 
 サーバーサイドURL
