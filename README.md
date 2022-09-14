@@ -4,7 +4,7 @@
 フロント側
 ```bash
 cd frontend_Project
-docker-compose run --rm front sh -c "npm install"
+docker-compose run --rm node sh -c "cd front-app && npm install"
 docker-compose up -d
 ```
 
