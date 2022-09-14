@@ -3,11 +3,14 @@
 起動方法
 フロント側
 ```bash
-docker-compose run --rm front sh -c "npm install -g create-react-app"
+cd frontend_Project
+docker-compose run --rm front sh -c "npm install"
+docker-compose up -d
 ```
 
-サーバーサイド,フロント側
+サーバーサイド側
 ```bash
+cd backend_Project
 docker-compose up -d
 ```
 
