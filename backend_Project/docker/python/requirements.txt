@@ -1,0 +1,7 @@
+Django==3.1
+uwsgi==2.0.18
+mysqlclient
+autopep8
+djangorestframework
+drf-yasg
+django-filter
