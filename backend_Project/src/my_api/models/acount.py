@@ -13,7 +13,7 @@ class Acount(BaseModel):
         max_length=255
     )
     
-    password = models.UUIDField(
+    password = models.CharField(
         verbose_name="パスワード",
         blank=True,
         null=False,
